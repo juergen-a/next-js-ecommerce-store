@@ -1,0 +1,24 @@
+.header {
+  grid-row: 1;
+  height: 10vh;
+  width: 100vw;
+  background-color: salmon;
+
+  > div {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  > div > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 1rem;
+  }
+
+  > div > nav a {
+    padding-inline: 0.5rem;
+  }
+}
