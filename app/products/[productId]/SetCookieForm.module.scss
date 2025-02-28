@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    display: block;
+    width: 50%;
+    margin-bottom: 5rem;
+  }
+
+  button {
+    height: 2.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    outline: inherit;
+  }
+}

@@ -1,0 +1,26 @@
+.landingNews {
+  height: 70vh;
+  width: 100vw;
+  background-color: white;
+  padding-left: 9rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  // gap: 1rem;
+  display: flex;
+
+  :nth-child(1) {
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(234, 234, 234);
+    height: 100%;
+    width: 140%;
+  }
+  :nth-child(2) {
+    margin: 0 auto;
+    padding: 1rem;
+    //    background-color: rgb(236, 236, 236);
+    height: 100%;
+    width: 60%;
+  }
+}

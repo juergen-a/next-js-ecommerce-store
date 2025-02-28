@@ -1,9 +1,11 @@
 .page {
   font: var(--font-geist-mono);
+  height: 100vh; // necessary for sticky header to stick
 
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
 }
 
 /*
