@@ -11,6 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+// Envokes rendering upon database changes
 export const dynamic = 'force-dynamic';
 
 export const metadata = {
