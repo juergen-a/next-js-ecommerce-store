@@ -1,12 +1,6 @@
 import { cache } from 'react';
+import type { Product } from '../migrations/00000-createTableProducts';
 import { sql } from './connect';
-
-type Product = {
-  productId: number;
-  productName: string;
-  productColor: string;
-  productPrice: number;
-};
 
 // Fetching data from DB -> Querying all products
 export const getProductsInsecure = cache(async () => {
